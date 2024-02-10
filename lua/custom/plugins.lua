@@ -14,6 +14,7 @@ local plugins = {
     opts = {
       ensure_installed = {
         "pyright",
+        "black",
         "typescript-language-server",
         "eslint-lsp",
         "prettierd"
@@ -58,7 +59,8 @@ local plugins = {
   {
     "ThePrimeagen/harpoon",
     branch = "harpoon2",
-    dependencies = { "nvim-lua/plenary.nvim" }
+    dependencies = { "nvim-lua/plenary.nvim" },
+    event = "VeryLazy"
   }
 }
 
