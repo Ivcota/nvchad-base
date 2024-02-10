@@ -52,4 +52,6 @@ local options = {
   extensions_list = { "themes", "terms" },
 }
 
+require("telescope-lsp-handlers").setup()
+
 return options

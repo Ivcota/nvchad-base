@@ -52,7 +52,8 @@ local plugins = {
       }
       return opts
     end,
-  }
+  },
+  "Slotos/telescope-lsp-handlers.nvim",
 }
 
 return plugins
